@@ -1,0 +1,15 @@
+start
+
+// this program is designed to take the account balance and overdraft fee, subtract it
+from the original balance and output the overdraft fee as well as the new balance on screen.
+
+input accountBalance = 1574
+input overDraftNum = 7
+calculate extraOverDraft = overDraftNum * 5
+calculate overDraftFee = accountBalance * .01 + extraOverDraft
+define newBalance = accountBalance - overDraftFee
+print "The overdraft fees are in the amount of " + overDraftFee
+print "Your new account balance is " + newBalance
+print "Thank you for using this program!"
+
+stop

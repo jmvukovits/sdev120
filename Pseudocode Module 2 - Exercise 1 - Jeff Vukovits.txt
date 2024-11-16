@@ -1,0 +1,15 @@
+start
+
+//this program is designed to ask the user to input the dimensions of a fridge, calculate
+the dimensions to get the cubic feet and print the model name and cubic feet to the screen.
+
+input model = "Whirlpool"
+input height = 66
+input width = 23
+input depth = 30
+cuIn = height * width * depth
+cuFt = cuIn / 1728
+print "The refrigerator model is " + model
+print "The cubic feet of the refrigerator is " + cuFt
+
+stop
